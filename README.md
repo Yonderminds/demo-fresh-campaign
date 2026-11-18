@@ -2,7 +2,7 @@
 
 This repo shows what your store repo looks like **after Step 4** of the go-live guide: Page Kit and Campaigns OS installed, Codex connected, 1 starter template added. Nothing is set up for a store yet. It uses the same simple layout as the guide.
 
-Compare it with the configured demo: https://github.com/Yonderminds/demo-configured-campaign. That repo is a real campaign, set up for one store, built and tested.
+Compare it with the configured demo: https://github.com/Yonderminds/demo-configured-campaign. That repo uses the **same layout**, with a real campaign set up for one store, built and tested.
 
 The full step-by-step guide is in the configured demo: [GO-LIVE.md](https://github.com/Yonderminds/demo-configured-campaign/blob/main/GO-LIVE.md).
 
@@ -60,5 +60,5 @@ Open the address it prints. You see the starter pages with demo products.
 | Demo package IDs | Your campaign's package IDs |
 | All 9 template pages | Only the pages in your funnel |
 | No Shopify URLs, no AppLovin key | `shopify-urls.json` and `axon_event_key` (Steps 11 and 12) |
-| No hosting | A hosting workflow and your own domain (Step 13) |
+| No hosting | A Cloudflare Pages project, `_redirects` and your own domain (Step 13) |
 | No checks or test records | Campaigns OS build and QA records in `.campaign-runtime/` |
